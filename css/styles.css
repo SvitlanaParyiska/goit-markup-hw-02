@@ -33,8 +33,8 @@ button {
 }
 
 /* header */
-.mail-link,
-.telephone-link {
+
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -43,32 +43,34 @@ button {
   color: #434455;
 }
 
-.logo-blue {
-  color: #4d5ae5;
+.logo {
+  color: var(--title-text-color);
 }
 
 .logo-link {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
-.studio-link,
-.portfolio-link,
-.contacts-link {
+.nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+
+.address-contact {
+  font-style: normal;
 }
 
 /* section hero */
@@ -86,15 +88,17 @@ button {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /* section advantages */
-.strategy-title,
-.punctuality-title,
-.diligence-title,
-.technologies-title {
+.advantages-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -103,10 +107,7 @@ button {
   color: var(--title-text-color);
 }
 
-.strategy-text,
-.punctuality-text,
-.diligence-text,
-.technologies-text {
+.advantages-text {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -132,12 +133,10 @@ button {
   background-color: var(--accent-bg-color);
 }
 
-.designer-item,
-.developer-item,
-.marketing-item,
-.designer-item {
+.team-item {
   background-color: var(--primary-bg-color);
 }
+
 .team-title {
   font-style: normal;
   font-weight: 700;
@@ -149,10 +148,7 @@ button {
   color: var(--title-text-color);
 }
 
-.designer-title,
-.developer-title,
-.marketing-title,
-.designer-title {
+.employee-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -160,13 +156,20 @@ button {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+
+.team-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
 /* section samples */
 
-.all-button,
-.web-button,
-.app-button,
-.design-button,
-.marketing-button {
+.samples-button {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -181,15 +184,12 @@ button {
   border-radius: 4px;
 }
 
-.banking-title,
-.payment-title,
-.meditaion-title,
-.taxi-title,
-.screen-title,
-.courses-title,
-.stories-title,
-.food-title,
-.coffee-title {
+.samples-button:hover,
+.samples-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.samples-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -198,15 +198,7 @@ button {
   color: var(--secondary-bg-color);
 }
 
-.banking-text,
-.payment-text,
-.meditaion-text,
-.taxi-text,
-.screen-text,
-.courses-text,
-.stories-text,
-.food-text,
-.coffee-text {
+.samples-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,7 +206,9 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* footer */
+
 .footer {
   background-color: var(--secondary-bg-color);
 }
@@ -228,8 +222,8 @@ button {
   color: #e7e9fc;
 }
 
-.footer-link {
-  font-family: 'Raleway';
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -238,5 +232,9 @@ button {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.logo-studio {
   color: #f4f4fd;
 }
