@@ -35,9 +35,6 @@ button {
 /* header */
 
 .address-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -49,7 +46,6 @@ button {
 
 .logo-link {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -61,7 +57,6 @@ button {
 }
 
 .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -78,7 +73,6 @@ button {
   background-color: var(--secondary-bg-color);
 }
 .hero-title {
-  font-style: normal;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -98,7 +92,6 @@ button {
 
 /* section advantages */
 .advantages-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -107,7 +100,6 @@ button {
 }
 
 .advantages-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -115,7 +107,6 @@ button {
 /* section examples */
 
 .examples-title {
-  font-style: normal;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -135,7 +126,6 @@ button {
 }
 
 .team-title {
-  font-style: normal;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -145,7 +135,6 @@ button {
 }
 
 .employee-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -154,7 +143,6 @@ button {
 }
 
 .team-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -164,7 +152,6 @@ button {
 
 .samples-button {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -184,7 +171,6 @@ button {
   background-color: #404bbf;
 }
 .samples-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -193,7 +179,6 @@ button {
 }
 
 .samples-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -206,7 +191,6 @@ button {
 }
 
 .footer-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
@@ -214,7 +198,6 @@ button {
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
